@@ -118,7 +118,7 @@ const server = net.createServer((socket) => {
       if(exist == 1){
         index = dummyclient.indexOf(recipient)
         if(message = "BanHammer"){
-          clients[index].write(`YOU'VE BEEN SMACK!!!!!`)
+          clients[index].write(`YOU'VE BEEN SMACKED!!!!!`)
           clients[index].destroy()
           
         }
